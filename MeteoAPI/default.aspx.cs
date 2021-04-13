@@ -19,7 +19,7 @@ namespace MeteoAPI
         protected void btnSearch_Click(object sender, EventArgs e)
         {
             // http://api.openweathermap.org/data/2.5/weather?lang=it&units=metric&q=thiene&appid=8de3e8c1d8c893c04f412c2e5bb517ea
-            string APIKEY = "8de3e8c1d8c893c04f412c2e5bb517ea";
+            string APIKEY = "";
             string baseURL = "http://api.openweathermap.org/data/2.5/";
 
             string reqCity = txtCitta.Text;
