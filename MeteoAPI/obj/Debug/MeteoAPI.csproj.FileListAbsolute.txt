@@ -1,0 +1,10 @@
+C:\projects\MeteoAPI\MeteoAPI\bin\MeteoAPI.dll.config
+C:\projects\MeteoAPI\MeteoAPI\bin\MeteoAPI.dll
+C:\projects\MeteoAPI\MeteoAPI\bin\MeteoAPI.pdb
+C:\projects\MeteoAPI\MeteoAPI\bin\Newtonsoft.Json.dll
+C:\projects\MeteoAPI\MeteoAPI\bin\Newtonsoft.Json.xml
+C:\projects\MeteoAPI\MeteoAPI\obj\Debug\MeteoAPI.csprojAssemblyReference.cache
+C:\projects\MeteoAPI\MeteoAPI\obj\Debug\MeteoAPI.csproj.CoreCompileInputs.cache
+C:\projects\MeteoAPI\MeteoAPI\obj\Debug\MeteoAPI.csproj.CopyComplete
+C:\projects\MeteoAPI\MeteoAPI\obj\Debug\MeteoAPI.dll
+C:\projects\MeteoAPI\MeteoAPI\obj\Debug\MeteoAPI.pdb

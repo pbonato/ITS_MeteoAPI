@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeteoAPI", "MeteoAPI\MeteoAPI.csproj", "{09AD04F9-F49A-4E24-8D41-86D5A5046C4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09AD04F9-F49A-4E24-8D41-86D5A5046C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AD04F9-F49A-4E24-8D41-86D5A5046C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AD04F9-F49A-4E24-8D41-86D5A5046C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AD04F9-F49A-4E24-8D41-86D5A5046C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC02E3D1-E88C-4A81-BE0D-F0B8C360516D}
+	EndGlobalSection
+EndGlobal
