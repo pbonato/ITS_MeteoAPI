@@ -20,7 +20,7 @@
                     <div class="h3 mt-3 mb-3">Città:<asp:TextBox CssClass="ml-3" ID="txtCitta" runat="server"></asp:TextBox></div>
                 </div>
                 <div class="col bg-warning mt-3">
-                    <asp:Button CssClass="btn btn-primary mt-3" ID="btnSearch" runat="server" Text="RICERCA" />
+                    <asp:Button CssClass="btn btn-primary mt-3" ID="btnSearch" runat="server" Text="RICERCA" OnClick="btnSearch_Click" />
                 </div>
             </div>
         </div>
