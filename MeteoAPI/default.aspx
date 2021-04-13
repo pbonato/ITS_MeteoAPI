@@ -67,7 +67,7 @@
                     <asp:Label CssClass="h3 font-weight-bold" ID="lblStatus" runat="server" Text="---"></asp:Label>
                 </div>
                 <div class="col">
-                    <img alt="WeatherCondition" id="imgStatus" src="..." runat="server"/>
+                    <img class="img-fluid" alt="WeatherCondition" id="imgStatus" src="..." runat="server"/>
                 </div>
             </div>
         </div>
