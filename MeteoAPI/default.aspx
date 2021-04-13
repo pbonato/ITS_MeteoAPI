@@ -29,7 +29,8 @@
                 <div class="col">
                     <table class="table table-striped table-bordered mt-3">
                         <tr class="text-center">
-                            <td class="h2" colspan="2">Risultati</td>
+                            <td class="h2" colspan="2">
+                                <asp:Label ID="lblAggiornamento" runat="server" Text="..."></asp:Label></td>
                         </tr>
                         <tr>
                             <td>Latitudine</td>
@@ -63,10 +64,10 @@
         <div class="container mt-3">
             <div class="row">
                 <div class="col">
-                    <asp:Label ID="lblStatus" runat="server" Text="---"></asp:Label>
+                    <asp:Label CssClass="h3 font-weight-bold" ID="lblStatus" runat="server" Text="---"></asp:Label>
                 </div>
                 <div class="col">
-                    <img alt="WeatherCondition" src="..." />
+                    <img alt="WeatherCondition" id="imgStatus" src="..." runat="server"/>
                 </div>
             </div>
         </div>

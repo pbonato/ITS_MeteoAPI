@@ -49,6 +49,17 @@ namespace MeteoAPI
             lblTempMassima.Text = wd.main.temp_max.ToString();
             lblTempMinima.Text = wd.main.temp_min.ToString();
 
+            DateTimeOffset dateTimeOffset = DateTimeOffset.FromUnixTimeSeconds(wd.dt);
+            DateTime dt = dateTimeOffset.LocalDateTime;
+
+            lblAggiornamento.Text = "Dati aggiornati al " + dt.ToLongDateString() + " " + dt.ToLongTimeString();
+
+            lblStatus.Text = wd.weather[0].description.ToString();
+
+            // URL IMAGE
+            string urlImage = $"http://openweathermap.org/img/wn/{wd.weather[0].icon}@2x.png";
+
+            imgStatus.Src = urlImage;
         }
     }
 }
